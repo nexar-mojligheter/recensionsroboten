@@ -1,18 +1,21 @@
 # Onboarding — så bygger du Recensionsroboten
 
-Du behöver inte kunna koda. Claude Code gör jobbet — du godkänner.
+Du behöver INTE kunna koda. Claude Code skriver koden — du styr och godkänner. Allt sker på svenska.
 
-## Innan du börjar (engångs)
-1. Skapa gratiskonton: **GitHub**, **Supabase**, **Vercel**.
+## Börja här: skriv `/start`
+Öppna projektet i Claude Code och skriv **`/start`**. Den **frågar om din nivå** och guidar dig hela vägen — förklarar varje verktyg, hjälper dig installera det som behövs, och bygger appen steg för steg. Fråga vad du vill när som helst, på vanlig svenska.
+
+## Vad är vad? (verktygen vi använder)
+- **Claude Code** — det här. Jag (Claude) skriver koden åt dig; du behöver inte skriva kod själv.
+- **GitHub** — moln-arkiv där projektets kod sparas säkert (som Google Drive fast för kod). Ditt projekt ligger redan här.
+- **Supabase** — appens **databas** + inloggning: här sparas t.ex. kunder, köp och innehåll. Gratis att börja.
+- **Vercel** — **publicerar** appen live på internet via en länk så andra kan besöka den. Gratis att börja.
+- **Claude API** — AI *inuti* appen, om den behöver det (t.ex. generera text). Behövs inte alltid.
+- **Chrome-tillägget "Claude in Chrome"** *(valfritt)* — låter mig klicka åt dig i webbläsaren (t.ex. i Supabase/Vercel) om du fastnar.
+
+## Engångs-setup (Claude hjälper dig i `/start`)
+1. Skapa gratiskonton: **GitHub**, **Supabase**, **Vercel** (+ **Stripe** om du ska ta betalt).
 2. I Claude Code: skriv `/mcp` och logga in på supabase, vercel och github (knappar i webbläsaren — inga nycklar att klistra).
 
-## Sen
-Skriv **`/start`** så guidar Claude dig hela vägen: bygga appen → databas → publicera live. Claude frågar **ja/nej** innan något kostar pengar eller publiceras.
-
-## Arbetssättet (Explore → Plan → Implement → Verify)
-- **Explore:** Claude läser `/affarsplan` och förstår möjligheten.
-- **Plan:** Claude föreslår en MVP-plan — du säger ok.
-- **Implement:** Claude bygger i små steg och visar resultatet.
-- **Verify:** Claude kör appen + testar efter varje steg.
-
-Fastnar du? Skriv bara vad du vill på svenska — Claude hjälper.
+## Så jobbar vi
+Claude bygger i små steg, visar resultatet, och frågar **ja/nej** innan något kostar pengar eller publiceras. Fastnar du? Skriv bara vad du vill på svenska.
