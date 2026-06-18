@@ -31,6 +31,6 @@ AI-svar på Google-recensioner – skräddarsytt för svenska restauranger och d
 - Använd din inbyggda auto-memory för build-kommandon och buggfixar.
 
 ## Kom igång
-Läs `/affarsplan`, föreslå sedan en konkret **4–6-stegsplan** för MVP:n — sen kör vi.
+**Kör `/start` först** — den frågar om din nivå och guidar dig hela vägen: förklarar varje verktyg (Supabase, Vercel m.m.), hjälper dig installera, och bygger appen steg för steg. Är du redan van kan du i stället be mig läsa `/affarsplan` och föreslå en MVP-plan direkt.
 
 <!-- nexar:opportunity slug=recensionsroboten -->
