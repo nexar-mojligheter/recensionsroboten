@@ -1,12 +1,21 @@
 # Framsteg — Recensionsroboten
 
-> Claude uppdaterar denna efter varje avklarat steg. **Läs den först vid varje session.**
+> Claude uppdaterar denna efter varje avklarat steg. **Läs den FÖRST vid varje session**
+> och sammanfatta för användaren var ni var (max 4 rader) innan ni fortsätter.
 
-## Byggt hittills
-- (inget än — projektet är precis öppnat)
+## Var vi är just nu
+Projektet är precis öppnat — inget byggt än. Nästa: kör `/start`.
 
-## Nästa steg
-- Läs `/affarsplan` och föreslå en konkret MVP-plan.
+## Faser
+- [ ] Setup (konton/verktyg redo)
+- [ ] Plan (MVP-plan godkänd)
+- [ ] Kärnflöde (appen löser problemet — kör lokalt)
+- [ ] Databas (Supabase kopplad)
+- [ ] Betalning (om appen tar betalt)
+- [ ] Live (publicerad på Vercel)
 
-## Öppna frågor
-- (inga än)
+## Senaste session
+- (inget än)
+
+## Nästa steg (EN sak)
+- Kör `/start`.
