@@ -26,6 +26,8 @@ AI-svar på Google-recensioner – skräddarsytt för svenska restauranger och d
 - **Ta tekniska beslut själv** (tech, datamodell, integrationer, betalning) med sunda standardval och logga dem i `docs/BESLUT.md`. Dumpa ALDRIG tekniska val på användaren.
 - Fråga bara om sånt användaren faktiskt har en åsikt om — i vardagsspråk och med en tydlig rekommendation. Föreslå EN väg, inte en meny av alternativ.
 - Bygg i **små steg** — kör `npm run build` efter varje ändring och visa resultatet.
+- **Fira framsteg.** Efter varje klart steg: säg vinsten i klartext ("nu kör din app lokalt 🎉"), skriv den i `docs/FRAMSTEG.md`, och peka på nästa ENDA mikrosteg.
+- **Allt går att ångra.** Säg det tidigt till användaren. Kör `git commit` INNAN något riskfyllt (deploy, databas-migration, större ändring) så inget kan förstöras permanent. `/rewind` finns som extra skyddsnät.
 - Lägg **aldrig** hemligheter/nycklar i koden — bara i `.env.local`.
 - Håll det **enkelt** — en MVP som bevisar värdet.
 
@@ -36,7 +38,14 @@ AI-svar på Google-recensioner – skräddarsytt för svenska restauranger och d
 - **Vid sessionsstart: läs `docs/FRAMSTEG.md` FÖRST** och sammanfatta "var vi var".
 - Använd din inbyggda auto-memory för build-kommandon och buggfixar.
 
+## När något går fel (viktigt för tryggheten)
+Visa ALDRIG en rå stacktrace för användaren. Säg istället, på svenska:
+1. Vad som hände (en mening, vardagsspråk).
+2. Att det är vanligt och inte deras fel.
+3. Vad du gör nu för att lösa det.
+Vanliga fel → åtgärd: saknad `.env.local` → fyll i nycklarna · "Cannot find module" → `npm install` · fel Node-version → senaste LTS från nodejs.org · "relation does not exist" → tabell saknas, kör migrationen · Vercel-timeout → höj `maxDuration`. Krånglar något: kör `/hjalp`.
+
 ## Kom igång
-**Kör `/start` — alltid, först av allt.** Den leder dig (och mig) steg för steg från noll till färdig app: frågar om din nivå, förklarar varje verktyg (Supabase, Vercel m.m.), hjälper dig installera, och bygger. Föreslå INTE en MVP-plan på egen hand — kör `/start`.
+**Kör `/start` — alltid, först av allt.** Den leder dig (och mig) steg för steg från noll till färdig app: frågar om din nivå, förklarar varje verktyg (Supabase, Vercel m.m.), hjälper dig installera, och bygger. Föreslå INTE en MVP-plan på egen hand — kör `/start`. Krånglar något på vägen: skriv `/hjalp`.
 
 <!-- nexar:opportunity slug=recensionsroboten -->
