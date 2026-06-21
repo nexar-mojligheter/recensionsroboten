@@ -18,4 +18,4 @@ Du behöver INTE kunna koda. Claude Code skriver koden — du styr och godkänne
 2. I Claude Code: skriv `/mcp` och logga in på supabase, vercel och github (knappar i webbläsaren — inga nycklar att klistra).
 
 ## Så jobbar vi
-Claude bygger i små steg, visar resultatet, och frågar **ja/nej** innan något kostar pengar eller publiceras. Fastnar du? Skriv bara vad du vill på svenska.
+Claude bygger i små steg, visar resultatet, och frågar **ja/nej** innan något kostar pengar eller publiceras. Fastnar du? Skriv bara vad du vill på svenska — eller kör **`/hjalp`** så felsöker Claude åt dig och föreslår en åtgärd.
