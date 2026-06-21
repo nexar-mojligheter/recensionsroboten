@@ -1,10 +1,10 @@
-# Uppgifter
+# Uppgifter — 0 av 6 klara
 
-> Claude bockar av allt eftersom.
+> Claude bockar av allt eftersom och uppdaterar räknaren i rubriken.
 
-- [ ] Läs `/affarsplan` (marknadsresearchen)
-- [ ] Föreslå en 4–6-stegs MVP-plan
-- [ ] Scaffolda appen (Next.js + Tailwind)
-- [ ] Bygg kärnflödet
-- [ ] Koppla Supabase
-- [ ] Deploya till Vercel
+- [ ] Kör `/start` + förstå möjligheten (`/affarsplan`)
+- [ ] MVP-plan godkänd
+- [ ] Appen kör lokalt (kärnflödet funkar)
+- [ ] Supabase kopplad
+- [ ] Sätt att ta betalt / fånga intresse
+- [ ] Publicerad live på Vercel
