@@ -68,7 +68,8 @@ Skapa projekt (`create_project`) — VISA kostnaden, be om ja/nej (`confirm_cost
 
 ## Steg 7 — Publicera (Vercel) — be om ja/nej först
 Kör `git commit` först (så inget kan gå förlorat). Koppla repot, sätt env-variabler, deploya.
-Visa den live länken och fira ordentligt. 🎉
+Visa den live länken och fira ordentligt. 🎉 Kör sedan `/rapportera` — då firar vi milstolpen och
+räknar den i Academy (peppar nästa medlem). Samma sak när första betalande kunden kommer.
 
 ## Steg 8 — Om appen behöver Claude API
 Be personen skapa en nyckel på console.anthropic.com → Create Key, klistra in EN gång → skriv till `.env.local`.
