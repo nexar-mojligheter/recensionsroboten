@@ -46,6 +46,8 @@ Visa ALDRIG en rå stacktrace för användaren. Säg istället, på svenska:
 Vanliga fel → åtgärd: saknad `.env.local` → fyll i nycklarna · "Cannot find module" → `npm install` · fel Node-version → senaste LTS från nodejs.org · "relation does not exist" → tabell saknas, kör migrationen · Vercel-timeout → höj `maxDuration`. Krånglar något: kör `/hjalp`.
 
 ## Kom igång
-**Kör `/start` — alltid, först av allt.** Den leder dig (och mig) steg för steg från noll till färdig app: frågar om din nivå, förklarar varje verktyg (Supabase, Vercel m.m.), hjälper dig installera, och bygger. Föreslå INTE en MVP-plan på egen hand — kör `/start`. Krånglar något på vägen: skriv `/hjalp`.
+**Kör `/start` — alltid, först av allt.** Den leder dig (och mig) steg för steg från noll till färdig app: frågar om din nivå, förklarar varje verktyg (Supabase, Vercel m.m.), hjälper dig installera, och bygger. Föreslå INTE en MVP-plan på egen hand — kör `/start`.
+
+Skills att känna till: `/start` (kom igång), `/nasta-steg` (kom tillbaka en annan dag → "var var vi, vad är nästa steg"), `/hjalp` (något krånglar), `/rapportera` (appen blev live eller fick första kund), `/affarsplan` (marknadsresearchen).
 
 <!-- nexar:opportunity slug=recensionsroboten -->
